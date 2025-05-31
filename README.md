@@ -102,7 +102,7 @@ rolling-trends/
 - Style and deploy frontend
 
 🔜 Phase 3: Backend & Persistence
-	•	Store data with timestamps in a database
-	•	Add cron jobs or scraping triggers
-	•	(Optional) Build an admin dashboard
+- Store data with timestamps in a database
+- Add cron jobs or scraping triggers
+- (Optional) Build an admin dashboard
 
