@@ -1,6 +1,7 @@
 # 🥋 Rolling Trends
 
-**AI-powered insights on trending Brazilian Jiu-Jitsu techniques and strategies, sourced from Reddit discussions.**  
+**AI-powered insights on trending Brazilian Jiu-Jitsu techniques and strategies, sourced from Reddit discussions.**
+
 Rolling Trends scrapes threads from subreddits like `r/bjj` and `r/grappling`, uses AI to identify the most talked-about techniques, and organizes them into guard styles, takedowns, submissions, sweeps, and more — all displayed in a clean, searchable Nuxt frontend.
 
 ---
@@ -88,17 +89,17 @@ rolling-trends/
 ## 🔮 Roadmap
 
 ✅ Phase 1: Proof of Concept
-	•	Choose core categories (Guard, Takedowns, Passing, Sweeps, Submissions)
-	•	Scrape a few sample Reddit threads manually or with Go
-	•	Generate mock JSON data for frontend display
-	•	Build Nuxt frontend pages for trends
-	•	Display AI-generated summaries per technique
+- Choose core categories (Guard, Takedowns, Passing, Sweeps, Submissions)
+- Scrape a few sample Reddit threads manually or with Go
+- Generate mock JSON data for frontend display
+- Build Nuxt frontend pages for trends
+- Display AI-generated summaries per technique
 
 🚧 Phase 2: Full Integration
-	•	Automate Reddit scraping by keyword/category
-	•	Use OpenAI API to process and categorize techniques
-	•	Enable filtering by Gi/No-Gi or beginner/advanced
-	•	Style and deploy frontend
+- Automate Reddit scraping by keyword/category
+- Use OpenAI API to process and categorize techniques
+- Enable filtering by Gi/No-Gi or beginner/advanced
+- Style and deploy frontend
 
 🔜 Phase 3: Backend & Persistence
 	•	Store data with timestamps in a database
