@@ -53,29 +53,4 @@ func main() {
 
 	fmt.Printf("✅ HTML saved to %s\n", filePath)
 
-	// res, err := http.Get(redditUrl)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// body, err := io.ReadAll(res.Body)
-	// res.Body.Close()
-	// if res.StatusCode > 299 {
-	// 	log.Fatalf("Response failed with status code: %d and\nbody: %s\n", res.StatusCode, body)
-	// }
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// f, err := os.CreateTemp("../../data/raw/", "best-no-gi-guards")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// if _, err := f.Write(body); err != nil {
-	// 	log.Fatal(err)
-	// }
-	// if err := f.Close(); err != nil {
-	// 	log.Fatal(err)
-	// }
-
 }
